@@ -1,14 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using static System.Reflection.Metadata.BlobBuilder;
 using System.Xml.Serialization;
 using System.Xml;
 using WildFiresBackend.Data;
 using WildFiresBackend.Models;
-using System.Net;
-using System.Security.AccessControl;
-using System.Data.SqlTypes;
 
 namespace WildFiresBackend.Controllers
 {
